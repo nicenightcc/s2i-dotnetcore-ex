@@ -8,7 +8,8 @@ namespace app
     {
       Console.WriteLine("Hello World!");
       new SocketConnection(8080).setConnection();
-      Console.ReadKey();
+      while (true)
+        Console.Read();
     }
   }
 }
